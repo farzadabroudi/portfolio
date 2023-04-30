@@ -20,7 +20,7 @@ const Header = () => {
               <a href="#" className="nav-link active" data-scroll-nav="0">Home</a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link" data-scroll-nav="1">About</a>
+              <a href="#about" className="nav-link" data-scroll-nav="1">About</a>
             </li>
             <li className="nav-item">
               <a href="#" className="nav-link" data-scroll-nav="2">Services</a>

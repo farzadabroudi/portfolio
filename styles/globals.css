@@ -58,6 +58,10 @@ a:focus {
     color: inherit;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Raleway", san-serif;
     position: relative;
@@ -759,6 +763,7 @@ nav.fixed-top .nav-item .nav-link:before {
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     position: relative;
     overflow: hidden;
 }
