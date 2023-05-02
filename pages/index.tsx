@@ -24,7 +24,7 @@ export default function Home() {
           <Slider/>
           <About/>
           <Skills/>
-          <FeedBack/>
+          {/*<FeedBack/>*/}
           <Portfolio/>
           <Contact/>
         </main>

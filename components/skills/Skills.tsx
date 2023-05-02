@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skills = () => {
   return (
-    <section className="services bg-gray pt-100 pb-50" data-scroll-index="2">
+    <section id="skills" className="services bg-gray pt-100 pb-50" data-scroll-index="2">
       <div className="container">
         <div className="row">
           <div className="col">

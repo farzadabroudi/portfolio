@@ -8,7 +8,7 @@ type Props = {
 const MenuItem = ({title, href}: Props) => {
   return (
     <li className="nav-item">
-      <LinkComponent className={"nav-link"} href={href}>{title}</LinkComponent>
+      <LinkComponent scroll={false} className={"nav-link"} href={href}>{title}</LinkComponent>
     </li>
   );
 };

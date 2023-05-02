@@ -1,0 +1,14 @@
+
+.fixed {
+    position: fixed !important;
+    background: white;
+    box-shadow: 0 0 18px 1px rgba(0, 0, 0, 0.1);
+}
+
+.fixed .logo {
+    color: black !important;
+}
+
+.fixed .nav-item, .fixed .nav-link {
+    color: black !important;
+}

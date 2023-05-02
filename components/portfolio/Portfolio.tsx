@@ -3,7 +3,7 @@ import ImageComponent from "@/components/shared/imageComponent/ImageComponent";
 
 const Portfolio = () => {
   return (
-    <section className="portfolio pt-100 pb-70" data-scroll-index="3">
+    <section id="portfolio" className="portfolio pt-100 pb-70" data-scroll-index="3">
       <div className="container">
         <div className="row">
           <div className="col">

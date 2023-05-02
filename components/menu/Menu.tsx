@@ -4,14 +4,15 @@ import MenuItem from "@/components/menu/MenuItem";
 
 const Menu = () => {
   const menuItems = [
-    {title: "Home", href: "#"},
-    {title: "About", href: "#"},
-    {title: "Skills", href: "#"},
-    {title: "Contact", href: "#"}]
+    {title: "Home", href: "#home"},
+    {title: "About", href: "#about"},
+    {title: "Skills", href: "#skills"},
+    {title: "Portfolio", href: "#portfolio"},
+    {title: "Contact", href: "#contact"}]
   return (
     <>
       <LinkComponent href={"/"} className={"navbar-brand logo"}>
-        Farzad
+        Abroudi
       </LinkComponent>
 
       <div className="navbar-collapse collapse">

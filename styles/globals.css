@@ -642,8 +642,8 @@ nav.navbar {
     width: 100%;
     top: 0;
     z-index: 999;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
@@ -763,7 +763,6 @@ nav.fixed-top .nav-item .nav-link:before {
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     position: relative;
     overflow: hidden;
 }

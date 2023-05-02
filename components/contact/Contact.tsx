@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <section className="contact pt-100 pb-100" data-scroll-index="5">
+    <section id="contact" className="contact pt-100 pb-100" data-scroll-index="5">
       <div className="container">
         <div className="row">
           <div className="col text-center">
