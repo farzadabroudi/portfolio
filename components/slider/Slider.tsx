@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import LinkComponent from "@/components/shared/linkComponent/LinkComponent";
 
 const Slider = () => {
   const [backgroundPosition, setBackgroundPosition] = useState("0% 0px");
@@ -24,14 +25,13 @@ const Slider = () => {
     >
       <div className="container">
         <div className="banner-caption">
-          <h1>Hi! Im Kalvin.</h1>
+          <h1>Hi! Im Farzad.</h1>
           <p className="cd-headline clip mt-30">
-            <span>Creative Designer &amp; Developer located in New York.</span><br/>
-            <span className="blc">Specialized in</span>
+            <span>FrontEnd React Developer.</span><br/>
           </p>
         </div>
         <div className="arrow bounce">
-          <a className="fa fa-chevron-down fa-2x" href="#" data-scroll-nav="1"></a>
+          <LinkComponent scroll={false} className={"fa fa-chevron-down fa-2x"} href={"#about"}/>
         </div>
       </div>
     </section>

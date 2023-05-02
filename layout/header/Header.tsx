@@ -8,7 +8,7 @@ const Header = () => {
     const handleScroll = () => {
       const scrollTop =
         window.pageYOffset || document.documentElement.scrollTop;
-      setIsScrolled(scrollTop > 200);
+      setIsScrolled(scrollTop > 20);
     };
 
     window.addEventListener("scroll", handleScroll);
