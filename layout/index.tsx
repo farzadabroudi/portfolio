@@ -1,6 +1,8 @@
 import React, {AllHTMLAttributes, FC, PropsWithChildren} from 'react';
-import Header from "@/components/header/Header";
-import Footer from "@/components/footer/Footer";
+import dynamic from "next/dynamic";
+
+const Header = dynamic(() => import("@/layout/header/Header"));
+const Footer = dynamic(() => import("@/layout/footer/Footer"));
 
 type Props = {} & AllHTMLAttributes<HTMLDivElement>
 const layout: FC<PropsWithChildren<Props>> = (props: Props) => {

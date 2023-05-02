@@ -1,5 +1,5 @@
 import React from 'react';
-import ImageComponent from "@/components/ImageComponent";
+import ImageComponent from "@/components/shared/imageComponent/ImageComponent";
 
 const About = () => {
    return (
