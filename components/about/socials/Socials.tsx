@@ -9,7 +9,8 @@ const Socials = ({socials}: Props) => {
     <div className="social-icons">
 
       {socials?.map(item => (
-        <LinkComponent key={item.title} href={item.link}><i className={`fa fa-${item.icon}`}></i></LinkComponent>
+        <LinkComponent target={"_blank"} key={item.title} href={item.link}><i
+          className={`fa fa-${item.icon}`}></i></LinkComponent>
       ))}
 
     </div>
