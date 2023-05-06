@@ -31,8 +31,12 @@ const Slider = () => {
           </p>
         </div>
         <div className="arrow bounce">
-          <LinkComponent style={{padding: "2rem 2rem 0"}} scroll={false} className={"fa fa-chevron-down fa-2x"}
-                         href={"#about"}/>
+          <LinkComponent
+            scroll={false}
+            href={"#about"}
+            style={{padding: "2rem 2rem 0"}}
+            className={"fa fa-chevron-down fa-2x"}
+          />
         </div>
       </div>
     </section>
