@@ -7,10 +7,13 @@ import Skills from "@/components/skills/Skills";
 import FeedBack from "@/components/feedBack/FeedBack";
 import Portfolio from "@/components/portfolio/Portfolio";
 import Contact from "@/components/contact/Contact";
+import useAsync from "@/hooks/useAsync";
 
 const inter = Inter({subsets: ['latin']})
 
 export default function Home() {
+  const {data, error, loading} = useAsync("https://igaptv-apigateway.igap.net/metadataReader/categories/movies")
+  console.log(111, data)
   return (
     <>
       <Head>
