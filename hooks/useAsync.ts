@@ -21,6 +21,7 @@ const useAsync = <T>(url: string): ApiResponse<T> => {
         setError(null)
       } catch (error) {
         console.log(error)
+        // @ts-ignore
         setError(error)
       }
       setLoading(false)

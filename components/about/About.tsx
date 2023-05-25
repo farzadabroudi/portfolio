@@ -1,5 +1,4 @@
 import React from 'react';
-import ImageComponent from "@/components/shared/imageComponent/ImageComponent";
 import Avatar from "@/components/about/avatar/Avatar";
 import Socials from "@/components/about/socials/Socials";
 import LinkComponent from "@/components/shared/linkComponent/LinkComponent";
@@ -41,6 +40,7 @@ const About = () => {
               <span className="about-button">
                 <LinkComponent className="main-btn" href="/files/Farzad Abroudi-CV.pdf">Download CV</LinkComponent>
               </span>
+
             </div>
           </div>
         </div>
